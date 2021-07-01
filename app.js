@@ -7,6 +7,7 @@ const bodyParser = require('koa-bodyparser')()
 const staticCache = require('koa-static-cache')
 const cors = require('koa2-cors')
 const helmet = require("koa-helmet")
+const {historyApiFallback} = require('koa2-connect-history-api-fallback')
 
 const config = require('./config')
 const publicRouter = require('./routes/public.js')
@@ -26,6 +27,9 @@ app.use(errorHandler)
 
 // Global Middlewares
 app.use(bodyParser)
+//spa 应用返回index.html 页面路由由web router 控制
+app.use(historyApiFallback({whiteList: ['/api']}))
+
 app.use(staticCache(config.publicDir))
 
 // Cors

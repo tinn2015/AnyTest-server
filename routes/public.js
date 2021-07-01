@@ -7,9 +7,13 @@ const router = new Router()
 router.prefix('/api')
 
 // router.get('/test', controllers.test.test)
-router.get('/', async (ctx) => {
-  ctx.type = 'html'
-  ctx.body = '<h1>hello world</h1>'
+router.get('/test', async (ctx) => {
+  // ctx.request.url = '/index.html'
+  // if (ctx.is('text/html')) {
+  //   ctx.request.url = '../website/index.html'
+  console.log('/test')
+  // }
+  ctx.response.body = 'dasdas'
 })
 
 module.exports = router

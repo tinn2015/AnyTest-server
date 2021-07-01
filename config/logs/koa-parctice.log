@@ -1,13 +1,22 @@
-[2021-06-30T16:59:51.832] [INFO] [Default] - GET 404 / 请求参数： {} 响应参数： undefined - ::1 - 7ms
-[2021-06-30T16:59:51.950] [INFO] [Default] - GET 404 /favicon.ico 请求参数： {} 响应参数： undefined - ::1 - 1ms
-[2021-06-30T17:06:55.040] [INFO] [Default] - GET 404 / 请求参数： {} 响应参数： undefined - ::1 - 3ms
-[2021-06-30T17:06:55.361] [INFO] [Default] - GET 404 / 请求参数： {} 响应参数： undefined - ::1 - 1ms
-[2021-06-30T17:07:02.244] [INFO] [Default] - GET 404 / 请求参数： {} 响应参数： undefined - ::1 - 1ms
-[2021-06-30T17:07:49.433] [INFO] [Default] - GET 404 /prefix 请求参数： {} 响应参数： undefined - ::1 - 0ms
-[2021-06-30T17:07:58.598] [INFO] [Default] - GET 404 /prefix/index.html 请求参数： {} 响应参数： undefined - ::1 - 0ms
-[2021-06-30T17:08:09.365] [INFO] [Default] - GET 404 /api/index.html 请求参数： {} 响应参数： undefined - ::1 - 0ms
-[2021-06-30T17:08:17.462] [INFO] [Default] - GET 200 /api 请求参数： {} 响应参数： {"code":401,"data":null,"msg":"no authorization"} - ::1 - 3ms
-[2021-06-30T17:09:24.560] [INFO] [Default] - GET 200 /api 请求参数： {} 响应参数： {"code":401,"data":null,"msg":"no authorization"} - ::1 - 1ms
-[2021-06-30T17:09:40.953] [INFO] [Default] - GET 200 /api 请求参数： {} 响应参数： "<h1>hello world</h1>" - ::1 - 5ms
-[2021-06-30T17:38:27.574] [INFO] [Default] - GET 200 /api 请求参数： {} 响应参数： "<h1>hello world</h1>" - ::1 - 4ms
-[2021-06-30T17:38:54.032] [INFO] [Default] - GET 200 /api 请求参数： {} 响应参数： "<h1>hello world</h1>" - ::1 - 0ms
+[2021-07-01T10:42:25.241] [INFO] [Default] - GET 304 /index.html 请求参数： {} 响应参数： undefined - ::1 - 1ms
+[2021-07-01T10:42:32.545] [INFO] [Default] - GET 404 / 请求参数： {} 响应参数： undefined - ::1 - 1ms
+[2021-07-01T10:42:42.783] [INFO] [Default] - GET 404 ../website/index.html 请求参数： {} 响应参数： undefined - ::1 - 1ms
+[2021-07-01T10:53:39.535] [INFO] [Default] - GET 404 /api/index.html 请求参数： {} 响应参数： undefined - ::1 - 0ms
+[2021-07-01T10:53:40.233] [INFO] [Default] - GET 404 /api/index.html 请求参数： {} 响应参数： undefined - ::1 - 0ms
+[2021-07-01T10:53:40.757] [INFO] [Default] - GET 404 /api/index.html 请求参数： {} 响应参数： undefined - ::1 - 0ms
+[2021-07-01T10:53:41.994] [INFO] [Default] - GET 404 /api/index.html 请求参数： {} 响应参数： undefined - ::1 - 0ms
+[2021-07-01T11:10:44.765] [INFO] [Default] - GET 200 /index.html 请求参数： {} 响应参数： {"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":[],"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"errorEmitted":false,"emitClose":true,"autoDestroy":false,"destroyed":false,"errored":null,"closed":false,"closeEmitted":false,"defaultEncoding":"utf8","awaitDrainWriters":null,"multiAwaitDrain":false,"readingMore":false,"decoder":null,"encoding":null},"_events":{},"_eventsCount":2,"path":"/Users/douqiting/tinn/node/node-practice/website/index.html","fd":null,"flags":"r","mode":438,"end":null,"autoClose":true,"bytesRead":0,"closed":false} - ::1 - 8ms
+[2021-07-01T11:10:48.007] [INFO] [Default] - GET 304 /index.html 请求参数： {} 响应参数： undefined - ::1 - 1ms
+[2021-07-01T11:11:07.684] [INFO] [Default] - GET 304 /index.html 请求参数： {} 响应参数： undefined - ::1 - 5ms
+[2021-07-01T11:11:08.480] [INFO] [Default] - GET 304 /index.html 请求参数： {} 响应参数： undefined - ::1 - 1ms
+[2021-07-01T11:11:09.032] [INFO] [Default] - GET 304 /index.html 请求参数： {} 响应参数： undefined - ::1 - 1ms
+[2021-07-01T11:11:09.925] [INFO] [Default] - GET 304 /index.html 请求参数： {} 响应参数： undefined - ::1 - 0ms
+[2021-07-01T11:11:15.898] [INFO] [Default] - GET 304 /index.html 请求参数： {} 响应参数： undefined - ::1 - 1ms
+[2021-07-01T13:52:19.227] [INFO] [Default] - GET 304 /index.html 请求参数： {} 响应参数： undefined - ::1 - 5ms
+[2021-07-01T13:52:28.403] [INFO] [Default] - GET 200 /index.html 请求参数： {} 响应参数： {"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":[],"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"errorEmitted":false,"emitClose":true,"autoDestroy":false,"destroyed":false,"errored":null,"closed":false,"closeEmitted":false,"defaultEncoding":"utf8","awaitDrainWriters":null,"multiAwaitDrain":false,"readingMore":false,"decoder":null,"encoding":null},"_events":{},"_eventsCount":2,"path":"/Users/douqiting/tinn/node/node-practice/website/index.html","fd":null,"flags":"r","mode":438,"end":null,"autoClose":true,"bytesRead":0,"closed":false} - ::1 - 4ms
+[2021-07-01T13:54:27.495] [INFO] [Default] - GET 304 /index.html 请求参数： {} 响应参数： undefined - ::1 - 4ms
+[2021-07-01T13:54:35.436] [INFO] [Default] - GET 304 /index.html 请求参数： {} 响应参数： undefined - ::1 - 1ms
+[2021-07-01T13:55:15.465] [INFO] [Default] - GET 200 /api/test 请求参数： {} 响应参数： "dasdas" - ::1 - 5ms
+[2021-07-01T13:59:28.690] [INFO] [Default] - GET 200 /api/test 请求参数： {} 响应参数： "dasdas" - ::1 - 5ms
+[2021-07-01T13:59:30.225] [INFO] [Default] - GET 200 /api/test 请求参数： {} 响应参数： "dasdas" - ::1 - 1ms
+[2021-07-01T13:59:37.404] [INFO] [Default] - GET 304 /index.html 请求参数： {} 响应参数： undefined - ::1 - 3ms
