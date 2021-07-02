@@ -1,5 +1,4 @@
 import React from "react";
-import { Tag } from 'antd';
 import {
   BrowserRouter as Router,
   Switch,
@@ -9,30 +8,33 @@ import {
   // useHistory,
   // useLocation
 } from "react-router-dom";
+import PrivateRoute from './components/PrivateRoute/'
+import Login from './pages/login'
+import Panel from './pages/panel'
+import globalStore from './store/index'
 import './App.css';
 
-import { getRandomColor } from './utils'
-
 function App() {
+  const {isLogin} = globalStore
+  console.log(isLogin, 'app')
   return (
     <div className="App wh-full">
       <Router>
         <div className="home">
-          <div className="title text-center">前后端测试</div>
-          <ul className="mt40">
-            <li><Tag className="ft24 my-tag text-center" color={getRandomColor()}>跨域请求</Tag></li>
-          </ul>
+          {
+            isLogin ? <div>已登录</div> : <div>请登录</div>
+          }
         </div>
         <Switch>
             <Route path="/public">
               {/* <PublicPage /> */}
             </Route>
             <Route path="/login">
-              {/* <LoginPage /> */}
+              <Login />
             </Route>
-            {/* <PrivateRoute path="/protected">
-              <ProtectedPage />
-            </PrivateRoute> */}
+            <PrivateRoute path="/panel">
+              <Panel/>
+            </PrivateRoute>
           </Switch>
       </Router>
     </div>
