@@ -74,3 +74,7 @@ code {
 .ft24 {
   font-size: 24px!important;
 }
+
+.pointer {
+  cursor: pointer;
+}

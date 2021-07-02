@@ -1,10 +1,10 @@
 import {observable, action} from 'mobx'
 
 class GlobalStore {
-  isLogin = observable({
+  @observable 
+  isLogin = window.localStorage.getItem('token') ? true : false
 
-  })
-
+  @action
   setLoginStatus (flag) {
     this.isLogin = flag
     if (!flag) {
@@ -12,7 +12,6 @@ class GlobalStore {
     }
   }
 
-  action(this.setLoginStatus)
 }
 
 export default new GlobalStore()
