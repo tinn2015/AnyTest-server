@@ -8,10 +8,10 @@ module.exports = {
   publicDir: path.resolve(__dirname, '../website'),
   logPath: path.resolve(__dirname, './logs/koa-parctice.log'),
   mongoDB: {
-    database: 'mall',
+    database: 'common',
     username: 'root',
     password: 'root',
-    host: '127.0.0.1',
+    host: 'localhost',
     port: 27017
   }
 }

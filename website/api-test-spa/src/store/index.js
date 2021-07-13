@@ -2,13 +2,13 @@ import {observable, action} from 'mobx'
 
 class GlobalStore {
   @observable 
-  isLogin = window.localStorage.getItem('token') ? true : false
+  isLogin = window.localStorage.getItem('Authorization') ? true : false
 
   @action
   setLoginStatus (flag) {
     this.isLogin = flag
     if (!flag) {
-      window.localStorage.removeItem('token')
+      window.localStorage.removeItem('Authorization')
     }
   }
 

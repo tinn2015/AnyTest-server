@@ -14,8 +14,9 @@ class Panel extends Component {
     return (
       <div>
         <div className="title text-center">前后端接口测试</div>
-          <ul className="mt40">
+          <ul className="mt40 flex">
             <li><Link to="/cors"><Tag className="ft24 my-tag text-center pointer" color={getRandomColor()}>跨域请求</Tag></Link></li>
+            <li><Link to="/form"><Tag className="ft24 my-tag text-center pointer" color={getRandomColor()}>文件上传</Tag></Link></li>
           </ul>
       </div>
     )

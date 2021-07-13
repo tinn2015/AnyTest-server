@@ -12,9 +12,9 @@ class PrivateRoute extends Component {
   }
   render () {
     const {...rest } = this.props
-    const { isLogin } = globalStore.isLogin
+    const { isLogin } = globalStore
     const Cmp = this.props.children
-    console.log(isLogin, 'privateRouter')
+    console.log(isLogin, globalStore, 'privateRouter')
     return (
       isLogin ? 
         <Route

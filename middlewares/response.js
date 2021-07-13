@@ -6,8 +6,9 @@ const { logger } = require('./logger')
 const responseHandler = (ctx) => {
   if (ctx.result !== undefined) {
     ctx.type = 'json'
+    ctx.jwt && ctx.set('WWW-Authenticate', ctx.jwt)
     ctx.body = {
-      code: 200,
+      code: ctx.code || 200,
       msg: ctx.msg || '',
       data: ctx.result
     }

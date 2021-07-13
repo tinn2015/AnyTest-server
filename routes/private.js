@@ -5,9 +5,9 @@ const controllers = require('../controllers')
 const jwtMiddleware = require('../middlewares/jwt')
 
 const router = new Router()
-router.prefix('/api')
+router.prefix('/api/private')
 router.use(jwtMiddleware)
 
-// router.get('/test', controllers.test.test)
+router.post('/logout', controllers.user.logout)
 
 module.exports = router

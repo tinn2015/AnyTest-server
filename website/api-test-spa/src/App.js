@@ -14,6 +14,8 @@ import Login from './pages/login'
 import Panel from './pages/panel'
 import globalStore from './store/index'
 import Cors from './components/cors'
+import { Button } from 'antd'
+import { logout } from './utils/http'
 import './App.css';
 
 @observer
@@ -21,6 +23,10 @@ class App extends Component {
 
   componentDidUpdate () {
     console.log('mountex')
+  }
+
+  logout = () => {
+    logout()
   }
   
   render () {
@@ -31,7 +37,7 @@ class App extends Component {
         <Router>
           <div className="home">
             {
-              isLogin ? <div>已登录 【退出】</div> : null
+              isLogin ? <div>已登录<Button onClick={this.logout} type="link" size="small">【退出】</Button></div> : null
             }
             {
               isLogin ? <Redirect to="/panel"/> :
@@ -39,12 +45,12 @@ class App extends Component {
             }
           </div>
           <Switch>
-              <Route path="/panel">
-                <Panel/>
-              </Route>
               <Route path="/login">
                 <Login />
               </Route>
+              <PrivateRoute path="/panel">
+                <Panel/>
+              </PrivateRoute>
               <PrivateRoute path="/cors">
                 <Cors/>
               </PrivateRoute>

@@ -1,0 +1,364 @@
+[2021-07-08T10:13:47.533] [INFO] [Default] - OPTIONS 204 /api/login 请求参数： {} 响应参数： undefined - ::1 - 3ms
+[2021-07-08T10:13:47.557] [INFO] [Default] - POST 404 /api/login 请求参数： {"username":"ewew","password":"1111"} 响应参数： undefined - ::1 - 19ms
+[2021-07-08T10:17:20.941] [INFO] [Default] - OPTIONS 204 /api/login 请求参数： {} 响应参数： undefined - ::1 - 0ms
+[2021-07-08T10:17:20.945] [INFO] [Default] - POST 404 /api/login 请求参数： {"username":"ewew","password":"1111"} 响应参数： undefined - ::1 - 2ms
+[2021-07-08T10:18:59.155] [INFO] [Default] - OPTIONS 204 /api/login 请求参数： {} 响应参数： undefined - ::1 - 4ms
+[2021-07-08T10:18:59.174] [INFO] [Default] - POST 404 /api/login 请求参数： {"username":"ewew","password":"1111"} 响应参数： undefined - ::1 - 14ms
+[2021-07-08T10:20:07.183] [INFO] [Default] - OPTIONS 204 /api/login 请求参数： {} 响应参数： undefined - ::1 - 1ms
+[2021-07-08T10:20:07.189] [INFO] [Default] - POST 404 /api/login 请求参数： {"username":"ewew","password":"1111"} 响应参数： undefined - ::1 - 3ms
+[2021-07-08T10:20:35.029] [INFO] [Default] - OPTIONS 204 /api/login 请求参数： {} 响应参数： undefined - ::1 - 3ms
+[2021-07-08T10:20:35.044] [INFO] [Default] - POST 200 /api/login 请求参数： {"username":"ewew","password":"1111"} 响应参数： {"message":"success"} - ::1 - 11ms
+[2021-07-08T10:21:31.900] [INFO] [Default] - OPTIONS 204 /api/login 请求参数： {} 响应参数： undefined - ::1 - 0ms
+[2021-07-08T10:21:31.904] [INFO] [Default] - POST 200 /api/login 请求参数： {"username":"ewew","password":"1111"} 响应参数： {"message":"success"} - ::1 - 1ms
+[2021-07-08T10:21:32.797] [INFO] [Default] - POST 200 /api/login 请求参数： {"username":"ewew","password":"1111"} 响应参数： {"message":"success"} - ::1 - 3ms
+[2021-07-08T10:21:33.584] [INFO] [Default] - POST 200 /api/login 请求参数： {"username":"ewew","password":"1111"} 响应参数： {"message":"success"} - ::1 - 3ms
+[2021-07-08T10:22:55.123] [INFO] [Default] - OPTIONS 204 /api/login 请求参数： {} 响应参数： undefined - ::1 - 0ms
+[2021-07-08T10:22:55.127] [INFO] [Default] - POST 200 /api/login 请求参数： {"username":"1111","password":"222222"} 响应参数： {"message":"success"} - ::1 - 1ms
+[2021-07-08T10:23:11.709] [INFO] [Default] - OPTIONS 204 /api/login 请求参数： {} 响应参数： undefined - ::1 - 0ms
+[2021-07-08T10:23:11.711] [INFO] [Default] - POST 200 /api/login 请求参数： {"username":"1111","password":"222222"} 响应参数： {"message":"success"} - ::1 - 1ms
+[2021-07-08T10:24:02.801] [INFO] [Default] - OPTIONS 204 /api/login 请求参数： {} 响应参数： undefined - ::1 - 2ms
+[2021-07-08T10:24:02.819] [INFO] [Default] - POST 200 /api/login 请求参数： {"username":"32132","password":"1212"} 响应参数： {"message":"success"} - ::1 - 13ms
+[2021-07-08T10:24:05.480] [INFO] [Default] - POST 200 /api/login 请求参数： {"username":"32132","password":"1212"} 响应参数： {"message":"success"} - ::1 - 3ms
+[2021-07-08T10:26:11.503] [INFO] [Default] - OPTIONS 204 /api/login 请求参数： {} 响应参数： undefined - ::1 - 2ms
+[2021-07-08T10:26:11.520] [INFO] [Default] - POST 200 /api/login 请求参数： {"username":"32132","password":"1212"} 响应参数： {"message":"success"} - ::1 - 12ms
+[2021-07-08T10:26:32.920] [INFO] [Default] - OPTIONS 204 /api/login 请求参数： {} 响应参数： undefined - ::1 - 0ms
+[2021-07-08T10:26:32.924] [INFO] [Default] - POST 200 /api/login 请求参数： {"username":"dadas","password":"fds"} 响应参数： {"message":"success"} - ::1 - 2ms
+[2021-07-08T10:27:39.564] [INFO] [Default] - OPTIONS 204 /api/login 请求参数： {} 响应参数： undefined - ::1 - 2ms
+[2021-07-08T10:27:39.580] [INFO] [Default] - POST 200 /api/login 请求参数： {"username":"dadas","password":"fds"} 响应参数： {"message":"success"} - ::1 - 11ms
+[2021-07-08T10:33:37.321] [INFO] [Default] - GET 404 /index.html 请求参数： {} 响应参数： undefined - ::1 - 2ms
+[2021-07-08T10:33:37.444] [INFO] [Default] - GET 404 /favicon.ico 请求参数： {} 响应参数： undefined - ::1 - 2ms
+[2021-07-08T10:37:00.599] [INFO] [Default] - OPTIONS 204 /api/login 请求参数： {} 响应参数： undefined - ::1 - 3ms
+[2021-07-08T10:37:00.615] [INFO] [Default] - POST 200 /api/login 请求参数： {"username":"dadas","password":"fds"} 响应参数： {"message":"success"} - ::1 - 12ms
+[2021-07-08T10:39:05.241] [INFO] [Default] - OPTIONS 204 /api/login 请求参数： {} 响应参数： undefined - ::1 - 3ms
+[2021-07-08T10:39:05.260] [INFO] [Default] - POST 200 /api/login 请求参数： {"username":"dadas","password":"fds"} 响应参数： {"message":"success"} - ::1 - 13ms
+[2021-07-08T10:41:13.473] [INFO] [Default] - OPTIONS 204 /api/login 请求参数： {} 响应参数： undefined - ::1 - 3ms
+[2021-07-08T10:41:13.497] [INFO] [Default] - POST 200 /api/login 请求参数： {"username":"1111","password":"23232"} 响应参数： {"message":"success"} - ::1 - 18ms
+[2021-07-08T10:43:29.583] [INFO] [Default] - OPTIONS 204 /api/login 请求参数： {} 响应参数： undefined - ::1 - 3ms
+[2021-07-08T10:43:29.605] [INFO] [Default] - POST 200 /api/login 请求参数： {"username":"1111","password":"23232"} 响应参数： {"message":"success"} - ::1 - 18ms
+[2021-07-08T10:44:46.663] [INFO] [Default] - OPTIONS 204 /api/login 请求参数： {} 响应参数： undefined - ::1 - 2ms
+[2021-07-08T10:44:46.677] [INFO] [Default] - POST 200 /api/login 请求参数： {"username":"1111","password":"23232"} 响应参数： {"message":"success"} - ::1 - 9ms
+[2021-07-08T10:55:21.390] [INFO] [Default] - OPTIONS 204 /api/login 请求参数： {} 响应参数： undefined - ::1 - 2ms
+[2021-07-08T10:55:21.421] [INFO] [Default] - POST 200 /api/login 请求参数： {"username":"312312","password":"dsd"} 响应参数： {"message":"success"} - ::1 - 24ms
+[2021-07-08T10:56:50.900] [INFO] [Default] - OPTIONS 204 /api/login 请求参数： {} 响应参数： undefined - ::1 - 3ms
+[2021-07-08T10:56:50.926] [INFO] [Default] - POST 200 /api/login 请求参数： {"username":"312312","password":"dsd"} 响应参数： {"message":"success"} - ::1 - 19ms
+[2021-07-08T11:02:00.826] [INFO] [Default] - OPTIONS 204 /api/login 请求参数： {} 响应参数： undefined - ::1 - 4ms
+[2021-07-08T11:02:00.848] [ERROR] [Default] - ReferenceError: userServices is not defined
+    at user.login (/Users/douqiting/tinn/node/node-practice/controllers/user.js:9:17)
+    at dispatch (/Users/douqiting/tinn/node/node-practice/node_modules/koa-compose/index.js:42:32)
+    at /Users/douqiting/tinn/node/node-practice/node_modules/koa-router/lib/router.js:372:16
+    at dispatch (/Users/douqiting/tinn/node/node-practice/node_modules/koa-compose/index.js:42:32)
+    at /Users/douqiting/tinn/node/node-practice/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/douqiting/tinn/node/node-practice/node_modules/koa-router/lib/router.js:377:31)
+    at dispatch (/Users/douqiting/tinn/node/node-practice/node_modules/koa-compose/index.js:42:32)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async cors (/Users/douqiting/tinn/node/node-practice/node_modules/koa2-cors/dist/index.js:91:9)
+    at async /Users/douqiting/tinn/node/node-practice/node_modules/koa-static-cache/index.js:39:63
+[2021-07-08T11:02:00.849] [INFO] [Default] - POST 200 /api/login 请求参数： {"username":"312312","password":"dsd"} 响应参数： {"code":-1,"data":null,"msg":"userServices is not defined"} - ::1 - 18ms
+[2021-07-08T11:02:52.938] [INFO] [Default] - OPTIONS 204 /api/login 请求参数： {} 响应参数： undefined - ::1 - 2ms
+[2021-07-08T11:02:52.958] [ERROR] [Default] - TypeError: InvalidQueryError is not a constructor
+    at user.login (/Users/douqiting/tinn/node/node-practice/controllers/user.js:12:15)
+    at dispatch (/Users/douqiting/tinn/node/node-practice/node_modules/koa-compose/index.js:42:32)
+    at /Users/douqiting/tinn/node/node-practice/node_modules/koa-router/lib/router.js:372:16
+    at dispatch (/Users/douqiting/tinn/node/node-practice/node_modules/koa-compose/index.js:42:32)
+    at /Users/douqiting/tinn/node/node-practice/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/douqiting/tinn/node/node-practice/node_modules/koa-router/lib/router.js:377:31)
+    at dispatch (/Users/douqiting/tinn/node/node-practice/node_modules/koa-compose/index.js:42:32)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async cors (/Users/douqiting/tinn/node/node-practice/node_modules/koa2-cors/dist/index.js:91:9)
+    at async /Users/douqiting/tinn/node/node-practice/node_modules/koa-static-cache/index.js:39:63
+[2021-07-08T11:02:52.959] [INFO] [Default] - POST 200 /api/login 请求参数： {"username":"312312","password":"dsd"} 响应参数： {"code":-1,"data":null,"msg":"InvalidQueryError is not a constructor"} - ::1 - 16ms
+[2021-07-08T11:05:39.927] [INFO] [Default] - OPTIONS 204 /api/login 请求参数： {} 响应参数： undefined - ::1 - 4ms
+[2021-07-08T11:05:39.953] [ERROR] [Default] - TypeError: InvalidQueryError is not a constructor
+    at user.login (/Users/douqiting/tinn/node/node-practice/controllers/user.js:13:15)
+    at dispatch (/Users/douqiting/tinn/node/node-practice/node_modules/koa-compose/index.js:42:32)
+    at /Users/douqiting/tinn/node/node-practice/node_modules/koa-router/lib/router.js:372:16
+    at dispatch (/Users/douqiting/tinn/node/node-practice/node_modules/koa-compose/index.js:42:32)
+    at /Users/douqiting/tinn/node/node-practice/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/douqiting/tinn/node/node-practice/node_modules/koa-router/lib/router.js:377:31)
+    at dispatch (/Users/douqiting/tinn/node/node-practice/node_modules/koa-compose/index.js:42:32)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async cors (/Users/douqiting/tinn/node/node-practice/node_modules/koa2-cors/dist/index.js:91:9)
+    at async /Users/douqiting/tinn/node/node-practice/node_modules/koa-static-cache/index.js:39:63
+[2021-07-08T11:05:39.954] [INFO] [Default] - POST 200 /api/login 请求参数： {"username":"312312","password":"dsd"} 响应参数： {"code":-1,"data":null,"msg":"InvalidQueryError is not a constructor"} - ::1 - 21ms
+[2021-07-08T11:06:28.469] [INFO] [Default] - OPTIONS 204 /api/login 请求参数： {} 响应参数： undefined - ::1 - 2ms
+[2021-07-08T11:06:28.488] [ERROR] [Default] - ReferenceError: person is not defined
+    at user.login (/Users/douqiting/tinn/node/node-practice/controllers/user.js:18:5)
+    at dispatch (/Users/douqiting/tinn/node/node-practice/node_modules/koa-compose/index.js:42:32)
+    at /Users/douqiting/tinn/node/node-practice/node_modules/koa-router/lib/router.js:372:16
+    at dispatch (/Users/douqiting/tinn/node/node-practice/node_modules/koa-compose/index.js:42:32)
+    at /Users/douqiting/tinn/node/node-practice/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/douqiting/tinn/node/node-practice/node_modules/koa-router/lib/router.js:377:31)
+    at dispatch (/Users/douqiting/tinn/node/node-practice/node_modules/koa-compose/index.js:42:32)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async cors (/Users/douqiting/tinn/node/node-practice/node_modules/koa2-cors/dist/index.js:91:9)
+    at async /Users/douqiting/tinn/node/node-practice/node_modules/koa-static-cache/index.js:39:63
+[2021-07-08T11:06:28.488] [INFO] [Default] - POST 200 /api/login 请求参数： {"username":"312312","password":"dsd"} 响应参数： {"code":-1,"data":null,"msg":"person is not defined"} - ::1 - 14ms
+[2021-07-08T11:07:35.282] [INFO] [Default] - OPTIONS 204 /api/login 请求参数： {} 响应参数： undefined - ::1 - 2ms
+[2021-07-08T11:07:35.302] [INFO] [Default] - POST 200 /api/login 请求参数： {"username":"312312","password":"dsd"} 响应参数： {"code":200,"msg":"用户不存在","data":""} - ::1 - 15ms
+[2021-07-08T11:08:48.407] [INFO] [Default] - OPTIONS 204 /api/login 请求参数： {} 响应参数： undefined - ::1 - 2ms
+[2021-07-08T11:08:48.431] [INFO] [Default] - POST 200 /api/login 请求参数： {"username":"312312","password":"dsd"} 响应参数： {"code":200,"msg":"用户不存在","data":{"username":"312312"}} - ::1 - 18ms
+[2021-07-08T11:09:52.633] [INFO] [Default] - OPTIONS 204 /api/login 请求参数： {} 响应参数： undefined - ::1 - 2ms
+[2021-07-08T11:09:52.653] [INFO] [Default] - POST 200 /api/login 请求参数： {"username":"312312","password":"dsd"} 响应参数： {"code":200,"msg":"用户不存在","data":{"username":"312312"}} - ::1 - 16ms
+[2021-07-08T11:12:35.573] [INFO] [Default] - OPTIONS 204 /api/login 请求参数： {} 响应参数： undefined - ::1 - 3ms
+[2021-07-08T11:12:35.594] [INFO] [Default] - POST 200 /api/login 请求参数： {"username":"312312","password":"dsd"} 响应参数： {"code":-1,"msg":"用户不存在","data":{"username":"312312"}} - ::1 - 16ms
+[2021-07-08T11:14:19.426] [INFO] [Default] - OPTIONS 204 /api/login 请求参数： {} 响应参数： undefined - ::1 - 5ms
+[2021-07-08T11:14:19.451] [ERROR] [Default] - TypeError: InvalidQueryError is not a constructor
+    at user.login (/Users/douqiting/tinn/node/node-practice/controllers/user.js:12:15)
+    at dispatch (/Users/douqiting/tinn/node/node-practice/node_modules/koa-compose/index.js:42:32)
+    at /Users/douqiting/tinn/node/node-practice/node_modules/koa-router/lib/router.js:372:16
+    at dispatch (/Users/douqiting/tinn/node/node-practice/node_modules/koa-compose/index.js:42:32)
+    at /Users/douqiting/tinn/node/node-practice/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/douqiting/tinn/node/node-practice/node_modules/koa-router/lib/router.js:377:31)
+    at dispatch (/Users/douqiting/tinn/node/node-practice/node_modules/koa-compose/index.js:42:32)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async cors (/Users/douqiting/tinn/node/node-practice/node_modules/koa2-cors/dist/index.js:91:9)
+    at async /Users/douqiting/tinn/node/node-practice/node_modules/koa-static-cache/index.js:39:63
+[2021-07-08T11:14:19.452] [INFO] [Default] - POST 200 /api/login 请求参数： {"username":""} 响应参数： {"code":-1,"data":null,"msg":"InvalidQueryError is not a constructor"} - ::1 - 19ms
+[2021-07-08T11:14:22.855] [INFO] [Default] - POST 200 /api/login 请求参数： {"username":"dsads","password":"dsadas"} 响应参数： {"code":-1,"msg":"用户不存在","data":{"username":"dsads"}} - ::1 - 3ms
+[2021-07-08T11:42:48.880] [INFO] [Default] - OPTIONS 204 /api/login 请求参数： {} 响应参数： undefined - ::1 - 5ms
+[2021-07-08T11:42:48.907] [INFO] [Default] - POST 200 /api/login 请求参数： {"username":"dsads","password":"dsadas"} 响应参数： {"code":200,"msg":"","data":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjU3MTkzNjgsImlhdCI6MTYyNTcxNTc2OH0.o5kQm0xckyuFVk12H-ucEdS9vbU9FHo3UXUSp7_mC4E"} - ::1 - 19ms
+[2021-07-08T11:47:19.558] [INFO] [Default] - OPTIONS 204 /api/login 请求参数： {} 响应参数： undefined - ::1 - 2ms
+[2021-07-08T11:47:19.581] [INFO] [Default] - POST 200 /api/login 请求参数： {"username":"dsads","password":"dsadas"} 响应参数： {"code":200,"msg":"","data":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjU3MTk2MzksImlhdCI6MTYyNTcxNjAzOX0.RomC1K3_F5e1TLqQr6I11z-ZiWnSJ-iW-3S_MEQjm2U"} - ::1 - 17ms
+[2021-07-08T11:48:27.890] [INFO] [Default] - OPTIONS 204 /api/login 请求参数： {} 响应参数： undefined - ::1 - 2ms
+[2021-07-08T11:48:27.911] [INFO] [Default] - POST 200 /api/login 请求参数： {"username":"dsads","password":"dsadas"} 响应参数： {"code":200,"msg":"","data":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjU3MTk3MDcsImlhdCI6MTYyNTcxNjEwN30.0jR7kHPdRoyOkmgAa1mSQhxn_FRKNSc9-LVyer63TKo"} - ::1 - 16ms
+[2021-07-08T11:52:08.077] [INFO] [Default] - OPTIONS 204 /api/login 请求参数： {} 响应参数： undefined - ::1 - 3ms
+[2021-07-08T11:52:08.093] [INFO] [Default] - POST 200 /api/login 请求参数： {"username":"dsads","password":"dsadas"} 响应参数： {"code":200,"msg":"","data":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MjU3MTk5MjgsImlhdCI6MTYyNTcxNjMyOH0.1rp6R3ksEequzyb0GzIjRyPP7qMADTW19-YgmpNss3s"} - ::1 - 12ms
+[2021-07-08T17:15:31.527] [ERROR] [Default] - Error: MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/douqiting/tinn/node/node-practice/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/douqiting/tinn/node/node-practice/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]
+    at NativeConnection.<anonymous> (/Users/douqiting/tinn/node/node-practice/models/index.js:17:18)
+    at NativeConnection.emit (events.js:315:20)
+    at /Users/douqiting/tinn/node/node-practice/node_modules/mongoose/lib/connection.js:856:30
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+[2021-07-08T17:18:13.537] [ERROR] [Default] - Error: MongoNetworkError: failed to connect to server [127.0.0.1:27018] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/douqiting/tinn/node/node-practice/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/douqiting/tinn/node/node-practice/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]
+    at NativeConnection.<anonymous> (/Users/douqiting/tinn/node/node-practice/models/index.js:17:18)
+    at NativeConnection.emit (events.js:315:20)
+    at /Users/douqiting/tinn/node/node-practice/node_modules/mongoose/lib/connection.js:856:30
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+[2021-07-08T18:16:23.480] [ERROR] [Default] - Error: MongoNetworkError: failed to connect to server [127.0.0.1:27018] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/douqiting/tinn/node/node-practice/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/douqiting/tinn/node/node-practice/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]
+    at NativeConnection.<anonymous> (/Users/douqiting/tinn/node/node-practice/models/index.js:17:18)
+    at NativeConnection.emit (events.js:315:20)
+    at /Users/douqiting/tinn/node/node-practice/node_modules/mongoose/lib/connection.js:856:30
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+[2021-07-08T18:17:20.710] [ERROR] [Default] - Error: MongoNetworkError: failed to connect to server [127.0.0.1:27018] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/douqiting/tinn/node/node-practice/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/douqiting/tinn/node/node-practice/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]
+    at NativeConnection.<anonymous> (/Users/douqiting/tinn/node/node-practice/models/index.js:17:18)
+    at NativeConnection.emit (events.js:315:20)
+    at /Users/douqiting/tinn/node/node-practice/node_modules/mongoose/lib/connection.js:856:30
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+[2021-07-08T18:18:17.683] [ERROR] [Default] - Error: MongoNetworkError: failed to connect to server [127.0.0.1:27018] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/douqiting/tinn/node/node-practice/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/douqiting/tinn/node/node-practice/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]
+    at NativeConnection.<anonymous> (/Users/douqiting/tinn/node/node-practice/models/index.js:17:18)
+    at NativeConnection.emit (events.js:315:20)
+    at /Users/douqiting/tinn/node/node-practice/node_modules/mongoose/lib/connection.js:856:30
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+[2021-07-08T18:52:18.311] [ERROR] [Default] - Error: MongoNetworkError: failed to connect to server [127.0.0.1:27018] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/douqiting/tinn/node/node-practice/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/douqiting/tinn/node/node-practice/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]
+    at NativeConnection.<anonymous> (/Users/douqiting/tinn/node/node-practice/models/index.js:17:18)
+    at NativeConnection.emit (events.js:315:20)
+    at /Users/douqiting/tinn/node/node-practice/node_modules/mongoose/lib/connection.js:856:30
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+[2021-07-08T18:53:32.918] [ERROR] [Default] - Error: MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16) {
+  name: 'MongoNetworkError'
+}]
+    at NativeConnection.<anonymous> (/Users/douqiting/tinn/node/node-practice/models/index.js:17:18)
+    at NativeConnection.emit (events.js:315:20)
+    at /Users/douqiting/tinn/node/node-practice/node_modules/mongoose/lib/connection.js:856:30
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+[2021-07-08T19:04:03.682] [ERROR] [Default] - Error: MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/douqiting/tinn/node/node-practice/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/douqiting/tinn/node/node-practice/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]
+    at NativeConnection.<anonymous> (/Users/douqiting/tinn/node/node-practice/models/index.js:17:18)
+    at NativeConnection.emit (events.js:315:20)
+    at /Users/douqiting/tinn/node/node-practice/node_modules/mongoose/lib/connection.js:856:30
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+[2021-07-08T19:05:55.414] [ERROR] [Default] - Error: MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/douqiting/tinn/node/node-practice/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/douqiting/tinn/node/node-practice/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]
+    at NativeConnection.<anonymous> (/Users/douqiting/tinn/node/node-practice/models/index.js:17:18)
+    at NativeConnection.emit (events.js:315:20)
+    at /Users/douqiting/tinn/node/node-practice/node_modules/mongoose/lib/connection.js:856:30
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+[2021-07-08T19:10:32.292] [ERROR] [Default] - Error: MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/douqiting/tinn/node/node-practice/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/douqiting/tinn/node/node-practice/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]
+    at NativeConnection.<anonymous> (/Users/douqiting/tinn/node/node-practice/models/index.js:17:18)
+    at NativeConnection.emit (events.js:315:20)
+    at /Users/douqiting/tinn/node/node-practice/node_modules/mongoose/lib/connection.js:856:30
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+[2021-07-08T19:13:50.836] [ERROR] [Default] - Error: MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/douqiting/tinn/node/node-practice/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/douqiting/tinn/node/node-practice/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]
+    at NativeConnection.<anonymous> (/Users/douqiting/tinn/node/node-practice/models/index.js:17:18)
+    at NativeConnection.emit (events.js:315:20)
+    at /Users/douqiting/tinn/node/node-practice/node_modules/mongoose/lib/connection.js:856:30
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+[2021-07-08T19:47:44.508] [ERROR] [Default] - Error: MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/douqiting/tinn/node/node-practice/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/douqiting/tinn/node/node-practice/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]
+    at NativeConnection.<anonymous> (/Users/douqiting/tinn/node/node-practice/models/index.js:16:18)
+    at NativeConnection.emit (events.js:315:20)
+    at /Users/douqiting/tinn/node/node-practice/node_modules/mongoose/lib/connection.js:856:30
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+[2021-07-08T19:48:34.099] [ERROR] [Default] - Error: MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/douqiting/tinn/node/node-practice/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/douqiting/tinn/node/node-practice/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]
+    at NativeConnection.<anonymous> (/Users/douqiting/tinn/node/node-practice/models/index.js:16:18)
+    at NativeConnection.emit (events.js:315:20)
+    at /Users/douqiting/tinn/node/node-practice/node_modules/mongoose/lib/connection.js:856:30
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+[2021-07-08T19:50:33.502] [ERROR] [Default] - Error: MongoNetworkError: failed to connect to server [127.0.0.1:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/douqiting/tinn/node/node-practice/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/douqiting/tinn/node/node-practice/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]
+    at NativeConnection.<anonymous> (/Users/douqiting/tinn/node/node-practice/models/index.js:16:18)
+    at NativeConnection.emit (events.js:315:20)
+    at /Users/douqiting/tinn/node/node-practice/node_modules/mongoose/lib/connection.js:856:30
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+[2021-07-08T19:52:44.895] [INFO] [Default] - mongo is opened
+[2021-07-08T19:58:25.804] [INFO] [Default] - OPTIONS 204 /api/login 请求参数： {} 响应参数： undefined - ::1 - 3ms
+[2021-07-08T19:58:25.842] [INFO] [Default] - POST 200 /api/login 请求参数： {"username":"dsads","password":"dsadas"} 响应参数： {"code":200,"msg":"用户不存在","data":{"username":"dsads"}} - ::1 - 34ms
+[2021-07-08T20:02:23.671] [ERROR] [Default] - Error: MongoNetworkError: failed to connect to server [localhost:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/douqiting/tinn/node/node-practice/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/douqiting/tinn/node/node-practice/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]
+    at NativeConnection.<anonymous> (/Users/douqiting/tinn/node/node-practice/models/index.js:16:18)
+    at NativeConnection.emit (events.js:315:20)
+    at /Users/douqiting/tinn/node/node-practice/node_modules/mongoose/lib/connection.js:856:30
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+[2021-07-08T20:05:03.323] [ERROR] [Default] - Error: MongoNetworkError: failed to connect to server [localhost:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/douqiting/tinn/node/node-practice/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/douqiting/tinn/node/node-practice/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]
+    at NativeConnection.<anonymous> (/Users/douqiting/tinn/node/node-practice/models/index.js:16:18)
+    at NativeConnection.emit (events.js:315:20)
+    at /Users/douqiting/tinn/node/node-practice/node_modules/mongoose/lib/connection.js:856:30
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+[2021-07-08T20:06:41.159] [ERROR] [Default] - Error: MongoNetworkError: failed to connect to server [localhost:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/douqiting/tinn/node/node-practice/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/douqiting/tinn/node/node-practice/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]
+    at NativeConnection.<anonymous> (/Users/douqiting/tinn/node/node-practice/models/index.js:16:18)
+    at NativeConnection.emit (events.js:315:20)
+    at /Users/douqiting/tinn/node/node-practice/node_modules/mongoose/lib/connection.js:856:30
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+[2021-07-08T20:09:32.479] [ERROR] [Default] - Error: MongoNetworkError: failed to connect to server [localhost:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/douqiting/tinn/node/node-practice/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/douqiting/tinn/node/node-practice/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]
+    at NativeConnection.<anonymous> (/Users/douqiting/tinn/node/node-practice/models/index.js:16:18)
+    at NativeConnection.emit (events.js:315:20)
+    at /Users/douqiting/tinn/node/node-practice/node_modules/mongoose/lib/connection.js:856:30
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+[2021-07-08T20:13:01.694] [ERROR] [Default] - Error: MongoNetworkError: failed to connect to server [localhost:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/douqiting/tinn/node/node-practice/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/douqiting/tinn/node/node-practice/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]
+    at NativeConnection.<anonymous> (/Users/douqiting/tinn/node/node-practice/models/index.js:16:18)
+    at NativeConnection.emit (events.js:315:20)
+    at /Users/douqiting/tinn/node/node-practice/node_modules/mongoose/lib/connection.js:856:30
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+[2021-07-08T20:52:18.208] [ERROR] [Default] - Error: MongoNetworkError: failed to connect to server [localhost:27017] on first connect [MongoNetworkTimeoutError: connection timed out
+    at connectionFailureError (/Users/douqiting/tinn/node/node-practice/node_modules/mongodb/lib/core/connection/connect.js:342:14)
+    at Socket.<anonymous> (/Users/douqiting/tinn/node/node-practice/node_modules/mongodb/lib/core/connection/connect.js:310:16)
+    at Object.onceWrapper (events.js:421:28)
+    at Socket.emit (events.js:315:20)
+    at Socket._onTimeout (net.js:483:8)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)]
+    at NativeConnection.<anonymous> (/Users/douqiting/tinn/node/node-practice/models/index.js:16:18)
+    at NativeConnection.emit (events.js:315:20)
+    at /Users/douqiting/tinn/node/node-practice/node_modules/mongoose/lib/connection.js:856:30
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)

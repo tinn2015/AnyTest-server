@@ -2,31 +2,59 @@
 
 const jwt = require('jsonwebtoken')
 const config = require('../config')
-// const userServices = require('../services').user
+const userServices = require('../services').user
 const { InvalidQueryError } = require('../lib/error')
-const login = {}
-login.login = async (ctx, next) => {
-    console.log(userServices)
-    const {userName, password} = ctx.request.body
-    if (!userName || !password) {
+const user = {}
+user.login = async (ctx, next) => {
+    // console.log(userServices)
+    const {username, password} = ctx.request.body
+    if (!username || !password) {
         throw new InvalidQueryError()
     }
-    // const user = await userServices.login({
-    //     userName: userName,
-    //     password: password
-    // })
-    if (!user) {
-        ctx.result = ''
-        ctx.msg = '用户不存在'
+    const person = await userServices.login({
+        username: username,
+        password: password
+    })
+    if (!person) {
+        let register =  await userServices.register({
+            username,
+            password
+        })
+        if (register.type === 'success') {
+            ctx.result = {
+                username,
+                id: register.data._id
+            }
+            ctx.jwt = jwt.sign({
+                data: register.data._id,
+                // 设置 token 过期时间
+                exp: Math.floor(Date.now() / 1000) + (60 * 60), // 60 seconds * 60 minutes = 1 hour
+            }, config.secret)
+            ctx.msg = '用户注册成功'
+            ctx.code = 1
+        }
     } else {
-        ctx.result = jwt.sign({
+        ctx.jwt = jwt.sign({
             data: user._id,
             // 设置 token 过期时间
             exp: Math.floor(Date.now() / 1000) + (60 * 60), // 60 seconds * 60 minutes = 1 hour
         }, config.secret)
+        ctx.result = {
+            username
+        }
+        ctx.msg = 'login success'
     }
     return next()
 }
 
-module.exports = login
+user.logout = (ctx, next) => {
+    console.log(ctx.jwtData)
+    ctx.result={
+        username: ''
+    }
+    ctx.msg = '退出成功'
+    return next()
+}
+
+module.exports = user
 
