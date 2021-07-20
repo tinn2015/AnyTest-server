@@ -1,11 +1,8 @@
 import { Component } from 'react'
 import { Route, Redirect } from 'react-router-dom'
-import globalStore from '../../store/index'
+import globalStore from '../../store/globalStore'
 
 class PrivateRoute extends Component {
-  constructor (props) {
-    super(props)
-  }
 
   componentDidMount () {
     console.log(this)
@@ -19,10 +16,8 @@ class PrivateRoute extends Component {
       isLogin ? 
         <Route
           {...rest}
-          render = {props => {
-            return (<Cmp {...props} />)
-          }}
-        ></Route> :
+          component={Cmp}
+        /> :
         <Redirect to={{pathname: '/login'}}></Redirect>
     )
   }

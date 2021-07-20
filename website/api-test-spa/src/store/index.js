@@ -1,17 +1,6 @@
-import {observable, action} from 'mobx'
+import globalStore from './globalStore'
 
-class GlobalStore {
-  @observable 
-  isLogin = window.localStorage.getItem('Authorization') ? true : false
-
-  @action
-  setLoginStatus (flag) {
-    this.isLogin = flag
-    if (!flag) {
-      window.localStorage.removeItem('Authorization')
-    }
-  }
-
+const store = {
+  globalStore
 }
-
-export default new GlobalStore()
+export default store

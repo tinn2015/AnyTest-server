@@ -58,6 +58,10 @@ code {
   align-items: center;
 }
 
+.jc-sb {
+  justify-content: space-between;
+}
+
 .title {
   font-size: 36px;
   color: #262626
@@ -77,4 +81,8 @@ code {
 
 .pointer {
   cursor: pointer;
+}
+
+.display-none {
+  display: none;
 }

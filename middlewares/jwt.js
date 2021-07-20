@@ -5,7 +5,7 @@ const jwt = require('jsonwebtoken')
 const config = require('../config')
 const jwtMiddleware = koaJwt({ secret: config.secret })
 
-module.exports = function (ctx, next) {
+module.exports = async  function (ctx, next) {
   // 将 token 中的数据解密后存到 ctx 中
   try { 
     console.log('ctx.request.headers',ctx.request, ctx.request.headers['Authorization'])
@@ -19,6 +19,6 @@ module.exports = function (ctx, next) {
   } catch (err) {
     throw {code: 401, message: err.message}
   }
-  next()
+  await next()
 }
 

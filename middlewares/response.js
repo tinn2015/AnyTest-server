@@ -13,6 +13,7 @@ const responseHandler = (ctx) => {
       data: ctx.result
     }
   }
+  console.log('reponse body', ctx.body)
 }
 
 // 这个middleware处理在其它middleware中出现的异常,我们在next()后面进行异常捕获，出现异常直接进入这个中间件进行处理

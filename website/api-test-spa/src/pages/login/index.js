@@ -1,11 +1,13 @@
 import {Component} from 'react'
 import {withRouter} from 'react-router-dom'
 import { Form, Input, Button, Checkbox, message } from 'antd';
-import globalStore from '../../store/index'
+import { inject } from 'mobx-react'
+import globalStore from '../../store/globalStore'
 import { login } from '../../utils/http'
 
 import './index.css'
 
+// @inject('globalStore')
 class Login extends Component {
   constructor(props){
     super(props)
@@ -46,7 +48,6 @@ class Login extends Component {
   }
 
   submit = (e) => {
-    console.log('submit', e, this.state)
     const { username, password } = this.state
     login({
       username,
@@ -55,9 +56,13 @@ class Login extends Component {
       if (res.code === 1) {
         message.success(res.msg)
       }
+      if (res.code === 2) {
+        message.warning(res.msg)
+      }
       console.log(this.props, this.props.history)
+      // globalStore.setLoginStatus(true)
       this.props.history.push('/panel')
-      console.log('res', res)
+      console.log('globalStore', globalStore)
     })
   }
 

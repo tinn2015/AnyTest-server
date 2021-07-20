@@ -8,29 +8,35 @@ import {
   // useHistory,
   // useLocation
 } from "react-router-dom";
-import { observer } from 'mobx-react'
+import { observer, inject } from 'mobx-react'
+// import globalStore from './store/index'
 import PrivateRoute from './components/PrivateRoute/'
 import Login from './pages/login'
 import Panel from './pages/panel'
-import globalStore from './store/index'
 import Cors from './components/cors'
+import UploadFile from './pages/uploadFile/uploadFile'
+import Socket from './pages/socket/socket'
 import { Button } from 'antd'
 import { logout } from './utils/http'
 import './App.css';
 
+@inject('globalStore')
 @observer
 class App extends Component {
 
   componentDidUpdate () {
-    console.log('mountex')
+    console.log('mountex', this.props.globalStore)
   }
 
   logout = () => {
-    logout()
+    logout().then(() => {
+      this.props.globalStore.setLoginStatus(false)
+      window.location.href = window.location.origin + '/login'
+    })
   }
   
   render () {
-    const {isLogin} = globalStore
+    const {isLogin} = this.props.globalStore
     console.log(isLogin, 'app')
     return (
       <div className="App wh-full">
@@ -45,14 +51,18 @@ class App extends Component {
             }
           </div>
           <Switch>
-              <Route path="/login">
-                <Login />
-              </Route>
+              <Route path="/login"><Login /></Route>
               <PrivateRoute path="/panel">
                 <Panel/>
               </PrivateRoute>
               <PrivateRoute path="/cors">
                 <Cors/>
+              </PrivateRoute>
+              <PrivateRoute path="/uploadFile">
+                <UploadFile/>
+              </PrivateRoute>
+              <PrivateRoute path="/socket">
+                <Socket/>
               </PrivateRoute>
             </Switch>
         </Router>
