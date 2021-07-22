@@ -13,7 +13,7 @@ import { observer, inject } from 'mobx-react'
 import PrivateRoute from './components/PrivateRoute/'
 import Login from './pages/login'
 import Panel from './pages/panel'
-import Cors from './components/cors'
+import Cookie from './pages/cookie/cookie'
 import UploadFile from './pages/uploadFile/uploadFile'
 import Socket from './pages/socket/socket'
 import { Button } from 'antd'
@@ -55,8 +55,8 @@ class App extends Component {
               <PrivateRoute path="/panel">
                 <Panel/>
               </PrivateRoute>
-              <PrivateRoute path="/cors">
-                <Cors/>
+              <PrivateRoute path="/cookie">
+                <Cookie/>
               </PrivateRoute>
               <PrivateRoute path="/uploadFile">
                 <UploadFile/>

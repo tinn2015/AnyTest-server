@@ -16,7 +16,8 @@ const instance = axios.create({
   timeout: 5000,
   headers: {
     'Authorization': localStorage.getItem('Authorization')
-  }
+  },
+  withCredentials: true
 });
 
 const urls = {
@@ -24,7 +25,8 @@ const urls = {
   logout: '/private/logout',
   uploadFile: '/private/uploadFile',
   getFileList: '/private/getFileList',
-  delete: '/private/delete'
+  delete: '/private/delete',
+  cookie: '/private/cookie',
 }
 
 function request (url, params) {
@@ -66,4 +68,7 @@ export const getFileList = (params) => {
 }
 export const deleteFile = (params) => {
   return request(urls.delete, params)
+}
+export const getCookie = (params) => {
+  return request(urls.cookie, params)
 }

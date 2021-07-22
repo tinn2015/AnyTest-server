@@ -1,0 +1,132 @@
+[2021-07-21T10:35:29.600] [INFO] [Default] - mongo is opened
+[2021-07-21T10:36:21.229] [INFO] [Default] - mongo is opened
+[2021-07-21T10:36:40.340] [INFO] [Default] - mongo is opened
+[2021-07-21T10:48:08.729] [INFO] [Default] - mongo is opened
+[2021-07-21T10:48:23.538] [INFO] [Default] - mongo is opened
+[2021-07-21T10:48:29.479] [INFO] [Default] - mongo is opened
+[2021-07-21T10:48:56.327] [INFO] [Default] - mongo is opened
+[2021-07-21T10:49:10.262] [INFO] [Default] - mongo is opened
+[2021-07-21T10:50:41.874] [INFO] [Default] - mongo is opened
+[2021-07-21T10:50:54.678] [INFO] [Default] - mongo is opened
+[2021-07-21T10:51:15.861] [INFO] [Default] - mongo is opened
+[2021-07-21T10:54:02.312] [INFO] [Default] - mongo is opened
+[2021-07-21T10:54:09.243] [INFO] [Default] - mongo is opened
+[2021-07-21T10:54:16.705] [INFO] [Default] - mongo is opened
+[2021-07-21T10:54:49.616] [INFO] [Default] - mongo is opened
+[2021-07-21T10:55:45.349] [INFO] [Default] - mongo is opened
+[2021-07-21T10:57:13.205] [INFO] [Default] - mongo is opened
+[2021-07-21T10:57:23.951] [INFO] [Default] - OPTIONS 204 /api/private/cookie 请求参数： {} 响应参数： undefined - ::1 - 3ms
+[2021-07-21T10:57:23.959] [INFO] [Default] - POST 404 /api/private/cookie 请求参数： {} 响应参数： undefined - ::1 - 3ms
+[2021-07-21T10:59:50.453] [INFO] [Default] - mongo is opened
+[2021-07-21T11:04:43.067] [INFO] [Default] - mongo is opened
+[2021-07-21T11:04:59.921] [INFO] [Default] - mongo is opened
+[2021-07-21T11:05:06.047] [INFO] [Default] - OPTIONS 204 /api/private/cookie 请求参数： {} 响应参数： undefined - ::1 - 2ms
+[2021-07-21T11:05:06.056] [INFO] [Default] - POST 200 /api/private/cookie 请求参数： {} 响应参数： {"code":401,"data":null,"msg":"jwt expired"} - ::1 - 6ms
+[2021-07-21T11:05:14.193] [INFO] [Default] - OPTIONS 204 /api/login 请求参数： {} 响应参数： undefined - ::1 - 1ms
+[2021-07-21T11:05:14.232] [INFO] [Default] - POST 200 /api/login 请求参数： {"username":"user","password":"112233"} 响应参数： {"code":200,"msg":"login success","data":{"username":"user"}} - ::1 - 37ms
+[2021-07-21T11:05:30.691] [INFO] [Default] - mongo is opened
+[2021-07-21T11:05:39.339] [INFO] [Default] - OPTIONS 204 /api/private/cookie 请求参数： {} 响应参数： undefined - ::1 - 2ms
+[2021-07-21T11:05:39.350] [INFO] [Default] - POST 200 /api/private/cookie 请求参数： {} 响应参数： {"code":200,"msg":"","data":{}} - ::1 - 8ms
+[2021-07-21T11:06:45.152] [INFO] [Default] - OPTIONS 204 /api/private/cookie 请求参数： {} 响应参数： undefined - ::1 - 0ms
+[2021-07-21T11:06:45.157] [INFO] [Default] - POST 200 /api/private/cookie 请求参数： {} 响应参数： {"code":200,"msg":"","data":{}} - ::1 - 3ms
+[2021-07-21T11:08:22.300] [INFO] [Default] - mongo is opened
+[2021-07-21T11:09:11.926] [INFO] [Default] - mongo is opened
+[2021-07-21T11:09:15.152] [INFO] [Default] - OPTIONS 204 /api/private/cookie 请求参数： {} 响应参数： undefined - ::1 - 1ms
+[2021-07-21T11:09:15.161] [INFO] [Default] - POST 200 /api/private/cookie 请求参数： {} 响应参数： {"code":200,"msg":"","data":{}} - ::1 - 7ms
+[2021-07-21T11:09:16.226] [INFO] [Default] - POST 200 /api/private/cookie 请求参数： {} 响应参数： {"code":200,"msg":"","data":{}} - ::1 - 4ms
+[2021-07-21T11:26:03.302] [INFO] [Default] - mongo is opened
+[2021-07-21T11:26:09.361] [INFO] [Default] - OPTIONS 204 /api/private/cookie 请求参数： {} 响应参数： undefined - ::1 - 2ms
+[2021-07-21T11:26:09.384] [INFO] [Default] - POST 200 /api/private/cookie 请求参数： {} 响应参数： {"code":200,"msg":"","data":{}} - ::1 - 19ms
+[2021-07-21T11:26:57.581] [INFO] [Default] - mongo is opened
+[2021-07-21T11:27:01.513] [INFO] [Default] - OPTIONS 204 /api/private/cookie 请求参数： {} 响应参数： undefined - ::1 - 2ms
+[2021-07-21T11:27:01.528] [INFO] [Default] - POST 200 /api/private/cookie 请求参数： {} 响应参数： {"code":200,"msg":"","data":{}} - ::1 - 12ms
+[2021-07-21T11:28:12.878] [INFO] [Default] - mongo is opened
+[2021-07-21T11:28:14.955] [INFO] [Default] - OPTIONS 204 /api/private/cookie 请求参数： {} 响应参数： undefined - ::1 - 3ms
+[2021-07-21T11:28:14.969] [INFO] [Default] - POST 200 /api/private/cookie 请求参数： {} 响应参数： {"code":200,"msg":"","data":{}} - ::1 - 11ms
+[2021-07-21T11:31:50.177] [INFO] [Default] - mongo is opened
+[2021-07-21T11:31:50.476] [INFO] [Default] - OPTIONS 204 /api/private/cookie 请求参数： {} 响应参数： undefined - ::1 - 2ms
+[2021-07-21T11:31:50.491] [INFO] [Default] - POST 200 /api/private/cookie 请求参数： {} 响应参数： {"code":200,"msg":"","data":{}} - ::1 - 12ms
+[2021-07-21T11:33:12.264] [INFO] [Default] - mongo is opened
+[2021-07-21T11:33:17.816] [INFO] [Default] - OPTIONS 204 /api/private/cookie 请求参数： {} 响应参数： undefined - ::1 - 2ms
+[2021-07-21T11:33:17.832] [INFO] [Default] - POST 200 /api/private/cookie 请求参数： {} 响应参数： {"code":200,"msg":"","data":{}} - ::1 - 13ms
+[2021-07-21T11:33:58.346] [INFO] [Default] - mongo is opened
+[2021-07-21T11:34:33.476] [INFO] [Default] - mongo is opened
+[2021-07-21T11:34:37.807] [INFO] [Default] - OPTIONS 204 /api/private/cookie 请求参数： {} 响应参数： undefined - ::1 - 1ms
+[2021-07-21T11:34:37.824] [INFO] [Default] - POST 200 /api/private/cookie 请求参数： {} 响应参数： {"code":200,"msg":"","data":{}} - ::1 - 15ms
+[2021-07-21T11:36:32.292] [INFO] [Default] - mongo is opened
+[2021-07-21T11:36:40.958] [INFO] [Default] - OPTIONS 204 /api/private/cookie 请求参数： {} 响应参数： undefined - ::1 - 3ms
+[2021-07-21T11:36:40.980] [INFO] [Default] - POST 200 /api/private/cookie 请求参数： {} 响应参数： {"code":200,"msg":"","data":{}} - ::1 - 17ms
+[2021-07-21T11:37:36.704] [INFO] [Default] - mongo is opened
+[2021-07-21T11:37:48.774] [INFO] [Default] - OPTIONS 204 /api/private/cookie 请求参数： {} 响应参数： undefined - ::1 - 2ms
+[2021-07-21T11:37:48.791] [INFO] [Default] - POST 200 /api/private/cookie 请求参数： {} 响应参数： {"code":200,"msg":"","data":{}} - ::1 - 15ms
+[2021-07-21T11:38:21.087] [INFO] [Default] - mongo is opened
+[2021-07-21T11:38:29.586] [INFO] [Default] - OPTIONS 204 /api/private/cookie 请求参数： {} 响应参数： undefined - ::1 - 2ms
+[2021-07-21T11:38:29.601] [INFO] [Default] - POST 200 /api/private/cookie 请求参数： {} 响应参数： {"code":200,"msg":"","data":{}} - ::1 - 10ms
+[2021-07-21T11:40:00.513] [INFO] [Default] - mongo is opened
+[2021-07-21T11:40:18.984] [INFO] [Default] - mongo is opened
+[2021-07-21T11:40:22.042] [INFO] [Default] - OPTIONS 204 /api/private/cookie 请求参数： {} 响应参数： undefined - ::1 - 2ms
+[2021-07-21T11:40:22.055] [INFO] [Default] - POST 200 /api/private/cookie 请求参数： {} 响应参数： {"code":200,"msg":"","data":{}} - ::1 - 10ms
+[2021-07-21T14:03:13.989] [INFO] [Default] - mongo is opened
+[2021-07-21T14:03:22.405] [INFO] [Default] - OPTIONS 204 /api/private/cookie 请求参数： {} 响应参数： undefined - ::1 - 3ms
+[2021-07-21T14:03:22.421] [INFO] [Default] - POST 200 /api/private/cookie 请求参数： {} 响应参数： {"code":200,"msg":"","data":{}} - ::1 - 13ms
+[2021-07-21T14:09:42.040] [INFO] [Default] - mongo is opened
+[2021-07-21T14:10:09.168] [INFO] [Default] - OPTIONS 204 /api/private/cookie 请求参数： {} 响应参数： undefined - ::1 - 3ms
+[2021-07-21T14:10:09.189] [INFO] [Default] - POST 200 /api/private/cookie 请求参数： {} 响应参数： {"code":200,"msg":"","data":{}} - ::1 - 18ms
+[2021-07-21T14:14:00.297] [INFO] [Default] - mongo is opened
+[2021-07-21T14:14:25.487] [INFO] [Default] - OPTIONS 204 /api/private/cookie 请求参数： {} 响应参数： undefined - ::1 - 2ms
+[2021-07-21T14:14:25.502] [INFO] [Default] - POST 200 /api/private/cookie 请求参数： {} 响应参数： {"code":200,"msg":"","data":{}} - ::1 - 12ms
+[2021-07-21T14:15:15.003] [INFO] [Default] - OPTIONS 204 /api/private/cookie 请求参数： {} 响应参数： undefined - ::1 - 0ms
+[2021-07-21T14:15:15.017] [INFO] [Default] - POST 200 /api/private/cookie 请求参数： {} 响应参数： {"code":200,"msg":"","data":{}} - ::1 - 11ms
+[2021-07-21T14:23:40.923] [INFO] [Default] - mongo is opened
+[2021-07-21T14:23:43.514] [INFO] [Default] - OPTIONS 204 /api/private/cookie 请求参数： {} 响应参数： undefined - ::1 - 1ms
+[2021-07-21T14:23:43.531] [INFO] [Default] - POST 200 /api/private/cookie 请求参数： {} 响应参数： {"code":200,"msg":"","data":{}} - ::1 - 15ms
+[2021-07-21T14:24:28.057] [INFO] [Default] - OPTIONS 204 /api/private/cookie 请求参数： {} 响应参数： undefined - ::1 - 0ms
+[2021-07-21T14:24:28.069] [INFO] [Default] - POST 200 /api/private/cookie 请求参数： {} 响应参数： {"code":200,"msg":"","data":{}} - ::1 - 9ms
+[2021-07-21T14:28:36.222] [INFO] [Default] - mongo is opened
+[2021-07-21T14:29:04.681] [INFO] [Default] - OPTIONS 204 /api/private/cookie 请求参数： {} 响应参数： undefined - ::1 - 2ms
+[2021-07-21T14:29:04.697] [INFO] [Default] - POST 200 /api/private/cookie 请求参数： {} 响应参数： {"code":200,"msg":"","data":{}} - ::1 - 13ms
+[2021-07-21T14:29:41.961] [INFO] [Default] - mongo is opened
+[2021-07-21T14:29:45.634] [INFO] [Default] - OPTIONS 204 /api/private/cookie 请求参数： {} 响应参数： undefined - ::1 - 4ms
+[2021-07-21T14:29:45.649] [INFO] [Default] - POST 200 /api/private/cookie 请求参数： {} 响应参数： {"code":200,"msg":"","data":{}} - ::1 - 11ms
+[2021-07-21T15:00:59.012] [INFO] [Default] - mongo is opened
+[2021-07-21T15:01:16.800] [INFO] [Default] - OPTIONS 204 /api/private/cookie 请求参数： {} 响应参数： undefined - ::1 - 2ms
+[2021-07-21T15:01:16.813] [INFO] [Default] - POST 200 /api/private/cookie 请求参数： {} 响应参数： {"code":200,"msg":"","data":{}} - ::1 - 10ms
+[2021-07-21T15:01:25.924] [INFO] [Default] - OPTIONS 204 /api/private/getFileList 请求参数： {} 响应参数： undefined - ::1 - 0ms
+[2021-07-21T15:01:25.929] [INFO] [Default] - POST 200 /api/private/getFileList 请求参数： {} 响应参数： {"code":200,"msg":"获取文件列表成功","data":{"list":[]}} - ::1 - 3ms
+[2021-07-21T15:01:32.425] [INFO] [Default] - OPTIONS 204 /api/private/uploadFile 请求参数： {} 响应参数： undefined - ::1 - 0ms
+[2021-07-21T15:01:32.437] [INFO] [Default] - POST 200 /api/private/uploadFile 请求参数： {} 响应参数： {"code":200,"msg":"上传成功","data":{"path":"localhost:3000/7b4335289540cabc5a6c86a756e24a7e.jpeg"}} - ::1 - 9ms
+[2021-07-21T15:01:32.442] [INFO] [Default] - OPTIONS 204 /api/private/getFileList 请求参数： {} 响应参数： undefined - ::1 - 0ms
+[2021-07-21T15:01:32.446] [INFO] [Default] - POST 200 /api/private/getFileList 请求参数： {} 响应参数： {"code":200,"msg":"获取文件列表成功","data":{"list":[{"name":"7b4335289540cabc5a6c86a756e24a7e.jpeg","size":45502,"url":"http://localhost:3002/7b4335289540cabc5a6c86a756e24a7e.jpeg","path":"/Users/douqiting/tinn/node/node-practice/static/7b4335289540cabc5a6c86a756e24a7e.jpeg"}]}} - ::1 - 2ms
+[2021-07-21T15:01:35.299] [INFO] [Default] - GET 404 /7b4335289540cabc5a6c86a756e24a7e.jpeg 请求参数： {} 响应参数： undefined - ::1 - 1ms
+[2021-07-21T15:01:41.874] [INFO] [Default] - GET 404 /7b4335289540cabc5a6c86a756e24a7e.jpeg 请求参数： {} 响应参数： undefined - ::1 - 0ms
+[2021-07-21T15:01:49.229] [INFO] [Default] - GET 404 /7b4335289540cabc5a6c86a756e24a7e.jpeg 请求参数： {} 响应参数： undefined - ::1 - 0ms
+[2021-07-21T15:02:09.494] [INFO] [Default] - GET 404 /7b4335289540cabc5a6c86a756e24a7e.jpeg 请求参数： {} 响应参数： undefined - ::1 - 0ms
+[2021-07-21T15:02:16.965] [INFO] [Default] - GET 404 /7b4335289540cabc5a6c86a756e24a7e.jpeg 请求参数： {} 响应参数： undefined - ::1 - 0ms
+[2021-07-21T15:02:26.787] [INFO] [Default] - GET 404 /7b4335289540cabc5a6c86a756e24a7e.jpeg 请求参数： {} 响应参数： undefined - ::1 - 1ms
+[2021-07-21T15:02:27.498] [INFO] [Default] - GET 404 /7b4335289540cabc5a6c86a756e24a7e.jpeg 请求参数： {} 响应参数： undefined - ::1 - 0ms
+[2021-07-21T15:02:28.023] [INFO] [Default] - GET 404 /7b4335289540cabc5a6c86a756e24a7e.jpeg 请求参数： {} 响应参数： undefined - ::1 - 1ms
+[2021-07-21T15:02:28.249] [INFO] [Default] - GET 404 /7b4335289540cabc5a6c86a756e24a7e.jpeg 请求参数： {} 响应参数： undefined - ::1 - 3ms
+[2021-07-21T15:02:28.451] [INFO] [Default] - GET 404 /7b4335289540cabc5a6c86a756e24a7e.jpeg 请求参数： {} 响应参数： undefined - ::1 - 0ms
+[2021-07-21T15:02:28.657] [INFO] [Default] - GET 404 /7b4335289540cabc5a6c86a756e24a7e.jpeg 请求参数： {} 响应参数： undefined - ::1 - 1ms
+[2021-07-21T15:02:28.868] [INFO] [Default] - GET 404 /7b4335289540cabc5a6c86a756e24a7e.jpeg 请求参数： {} 响应参数： undefined - ::1 - 0ms
+[2021-07-21T15:02:36.142] [INFO] [Default] - GET 404 /7b4335289540cabc5a6c86a756e24a7e.jpeg 请求参数： {} 响应参数： undefined - ::1 - 1ms
+[2021-07-21T15:03:09.161] [INFO] [Default] - OPTIONS 204 /api/private/uploadFile 请求参数： {} 响应参数： undefined - ::1 - 0ms
+[2021-07-21T15:03:09.171] [INFO] [Default] - POST 200 /api/private/uploadFile 请求参数： {} 响应参数： {"code":200,"msg":"上传成功","data":{"path":"localhost:3000/974c95f4f1c7c0bf64e59655b1f11db6.jpeg"}} - ::1 - 7ms
+[2021-07-21T15:03:09.179] [INFO] [Default] - OPTIONS 204 /api/private/getFileList 请求参数： {} 响应参数： undefined - ::1 - 1ms
+[2021-07-21T15:03:09.183] [INFO] [Default] - POST 200 /api/private/getFileList 请求参数： {} 响应参数： {"code":200,"msg":"获取文件列表成功","data":{"list":[{"name":"7b4335289540cabc5a6c86a756e24a7e.jpeg","size":45502,"url":"http://localhost:3002/7b4335289540cabc5a6c86a756e24a7e.jpeg","path":"/Users/douqiting/tinn/node/node-practice/static/7b4335289540cabc5a6c86a756e24a7e.jpeg"},{"name":"974c95f4f1c7c0bf64e59655b1f11db6.jpeg","size":147105,"url":"http://localhost:3002/974c95f4f1c7c0bf64e59655b1f11db6.jpeg","path":"/Users/douqiting/tinn/node/node-practice/static/974c95f4f1c7c0bf64e59655b1f11db6.jpeg"}]}} - ::1 - 3ms
+[2021-07-21T15:03:33.878] [INFO] [Default] - GET 404 /974c95f4f1c7c0bf64e59655b1f11db6.jpeg 请求参数： {} 响应参数： undefined - ::1 - 2ms
+[2021-07-21T15:04:20.865] [INFO] [Default] - mongo is opened
+[2021-07-21T15:04:23.914] [INFO] [Default] - GET 200 /974c95f4f1c7c0bf64e59655b1f11db6.jpeg 请求参数： {} 响应参数： {"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":[],"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"errorEmitted":false,"emitClose":true,"autoDestroy":false,"destroyed":false,"errored":null,"closed":false,"closeEmitted":false,"defaultEncoding":"utf8","awaitDrainWriters":null,"multiAwaitDrain":false,"readingMore":false,"decoder":null,"encoding":null},"_events":{},"_eventsCount":2,"path":"/Users/douqiting/tinn/node/node-practice/static/974c95f4f1c7c0bf64e59655b1f11db6.jpeg","fd":null,"flags":"r","mode":438,"end":null,"autoClose":true,"bytesRead":0,"closed":false} - ::1 - 8ms
+[2021-07-21T15:04:39.779] [INFO] [Default] - mongo is opened
+[2021-07-21T15:04:47.375] [INFO] [Default] - GET 304 /974c95f4f1c7c0bf64e59655b1f11db6.jpeg 请求参数： {} 响应参数： undefined - ::1 - 6ms
+[2021-07-21T15:04:50.988] [INFO] [Default] - GET 304 /974c95f4f1c7c0bf64e59655b1f11db6.jpeg 请求参数： {} 响应参数： undefined - ::1 - 1ms
+[2021-07-21T15:04:58.354] [INFO] [Default] - GET 304 /974c95f4f1c7c0bf64e59655b1f11db6.jpeg 请求参数： {} 响应参数： undefined - ::1 - 1ms
+[2021-07-21T15:05:02.535] [INFO] [Default] - GET 200 /7b4335289540cabc5a6c86a756e24a7e.jpeg 请求参数： {} 响应参数： {"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":[],"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"errorEmitted":false,"emitClose":true,"autoDestroy":false,"destroyed":false,"errored":null,"closed":false,"closeEmitted":false,"defaultEncoding":"utf8","awaitDrainWriters":null,"multiAwaitDrain":false,"readingMore":false,"decoder":null,"encoding":null},"_events":{},"_eventsCount":2,"path":"/Users/douqiting/tinn/node/node-practice/static/7b4335289540cabc5a6c86a756e24a7e.jpeg","fd":null,"flags":"r","mode":438,"end":null,"autoClose":true,"bytesRead":0,"closed":false} - ::1 - 4ms
+[2021-07-21T15:48:07.192] [INFO] [Default] - mongo is opened
+[2021-07-21T15:49:01.509] [INFO] [Default] - mongo is opened
+[2021-07-21T15:49:47.678] [INFO] [Default] - mongo is opened
+[2021-07-21T16:04:00.602] [INFO] [Default] - mongo is opened
+[2021-07-21T16:08:00.295] [INFO] [Default] - mongo is opened
+[2021-07-21T16:08:46.741] [INFO] [Default] - mongo is opened
+[2021-07-21T16:11:03.513] [INFO] [Default] - mongo is opened
+[2021-07-21T16:12:37.512] [INFO] [Default] - mongo is opened

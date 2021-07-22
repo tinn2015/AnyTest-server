@@ -6,11 +6,12 @@ const corsHandler = {
             // 这里可以配置不运行跨域的接口地址
             return false;
         }
-        return '*';
+        // return '*';
+        return "http://localhost:3000"
     },
     exposeHeaders: ['WWW-Authenticate', 'Server-Authorization'],
     maxAge: 5,
-    s: true,
+    credentials: true,
     allowMethods: ['GET', 'POST', 'DELETE', 'OPTIONS'],
     allowHeaders: ['Content-Type', 'Authorization', 'Accept'],
 }
