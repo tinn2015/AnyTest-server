@@ -10,6 +10,7 @@ const staticCache = require('koa-static-cache')
 const cors = require('koa2-cors')
 const helmet = require("koa-helmet")
 const {historyApiFallback} = require('koa2-connect-history-api-fallback')
+const compress = require('koa-compress')
 
 const config = require('./config')
 const publicRouter = require('./routes/public.js')
@@ -23,6 +24,16 @@ const app = new Koa()
 // Logger
 // 必须放在第一个中间件，才能保证所以的请求及操作会先经过logger进行记录再到下一个中间件。
 app.use(loggerMiddleware)
+
+// 这个插件会将所有的资源都压缩  默认为br
+// 可以通过ctx.compress = false 阻止压缩
+app.use(compress({
+  threshold: 1024,
+  gzip: {
+    flush: require('zlib').constants.Z_SYNC_FLUSH  // 开启gzip
+  },
+  // br: false  // 是否进行br压缩
+}))
 
 // Error Handler
 app.use(errorHandler)
