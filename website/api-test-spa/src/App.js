@@ -16,6 +16,7 @@ import Panel from './pages/panel'
 import Cookie from './pages/cookie/cookie'
 import UploadFile from './pages/uploadFile/uploadFile'
 import Socket from './pages/socket/socket'
+import Gzip from './pages/gzip/gzip'
 import { Button } from 'antd'
 import { logout } from './utils/http'
 import './App.css';
@@ -63,6 +64,9 @@ class App extends Component {
               </PrivateRoute>
               <PrivateRoute path="/socket">
                 <Socket/>
+              </PrivateRoute>
+              <PrivateRoute path="/gzip">
+                <Gzip/>
               </PrivateRoute>
             </Switch>
         </Router>

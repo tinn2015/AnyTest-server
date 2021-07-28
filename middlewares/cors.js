@@ -10,7 +10,7 @@ const corsHandler = {
         return "http://localhost:3000"
     },
     exposeHeaders: ['WWW-Authenticate', 'Server-Authorization'],
-    maxAge: 5,
+    maxAge: 60 * 10, //秒
     credentials: true,
     allowMethods: ['GET', 'POST', 'DELETE', 'OPTIONS'],
     allowHeaders: ['Content-Type', 'Authorization', 'Accept'],

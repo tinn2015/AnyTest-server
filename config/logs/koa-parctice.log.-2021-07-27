@@ -1,0 +1,20 @@
+[2021-07-27T19:44:17.354] [INFO] [Default] - mongo is opened
+[2021-07-27T19:54:01.638] [INFO] [Default] - OPTIONS 204 /api/private/cookie 请求参数： {} 响应参数： undefined - ::1 - 3ms
+[2021-07-27T19:54:01.651] [INFO] [Default] - POST 200 /api/private/cookie 请求参数： {} 响应参数： {"code":401,"data":null,"msg":"jwt expired"} - ::1 - 8ms
+[2021-07-27T19:54:13.072] [INFO] [Default] - OPTIONS 204 /api/login 请求参数： {} 响应参数： undefined - ::1 - 0ms
+[2021-07-27T19:54:16.253] [INFO] [Default] - POST 200 /api/login 请求参数： {"username":"user","password":"112233"} 响应参数： {"code":200,"msg":"login success","data":{"username":"user"}} - ::1 - 3178ms
+[2021-07-27T19:54:19.654] [INFO] [Default] - OPTIONS 204 /api/private/cookie 请求参数： {} 响应参数： undefined - ::1 - 0ms
+[2021-07-27T19:54:19.667] [INFO] [Default] - POST 200 /api/private/cookie 请求参数： {} 响应参数： {"code":200,"msg":"","data":{}} - ::1 - 10ms
+[2021-07-27T19:54:37.830] [INFO] [Default] - OPTIONS 204 /api/private/cookie 请求参数： {} 响应参数： undefined - ::1 - 0ms
+[2021-07-27T19:54:37.837] [INFO] [Default] - POST 200 /api/private/cookie 请求参数： {} 响应参数： {"code":200,"msg":"","data":{}} - ::1 - 5ms
+[2021-07-27T19:54:50.481] [INFO] [Default] - OPTIONS 204 /api/private/cookie 请求参数： {} 响应参数： undefined - ::1 - 0ms
+[2021-07-27T19:54:50.486] [INFO] [Default] - POST 200 /api/private/cookie 请求参数： {} 响应参数： {"code":200,"msg":"","data":{}} - ::1 - 3ms
+[2021-07-27T19:54:51.211] [INFO] [Default] - POST 200 /api/private/cookie 请求参数： {} 响应参数： {"code":200,"msg":"","data":{}} - ::1 - 10ms
+[2021-07-27T19:54:52.198] [INFO] [Default] - POST 200 /api/private/cookie 请求参数： {} 响应参数： {"code":200,"msg":"","data":{}} - ::1 - 8ms
+[2021-07-27T19:56:40.771] [INFO] [Default] - mongo is opened
+[2021-07-27T19:57:48.784] [INFO] [Default] - mongo is opened
+[2021-07-27T19:58:14.431] [INFO] [Default] - mongo is opened
+[2021-07-27T20:00:00.853] [INFO] [Default] - mongo is opened
+[2021-07-27T20:00:05.435] [INFO] [Default] - mongo is opened
+[2021-07-27T20:00:35.715] [INFO] [Default] - mongo is opened
+[2021-07-27T20:01:43.121] [INFO] [Default] - mongo is opened

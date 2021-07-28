@@ -7,6 +7,7 @@ const responseHandler = (ctx) => {
   if (ctx.result !== undefined) {
     ctx.type = 'json'
     ctx.jwt && ctx.set('WWW-Authenticate', ctx.jwt)
+    // ctx.compress && ctx.set('Content-Encoding', 'gzip')
     ctx.body = {
       code: ctx.code || 200,
       msg: ctx.msg || '',
