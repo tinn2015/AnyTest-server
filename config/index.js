@@ -15,6 +15,13 @@ module.exports = {
     password: 'root',
     host: 'localhost',
     port: 27017
+  },
+  mysql: {
+    database: 'MyDemo',
+    username: 'root',
+    password: 'dqt112233',
+    host: 'localhost',
+    port: 3306
   }
 }
 

@@ -16,6 +16,7 @@ user.login = async (ctx, next) => {
         username: username,
         password: password
     })
+    console.log('person', person)
     if (!person) {
         // let register =  await userServices.register({
         //     username,
