@@ -3,7 +3,7 @@
 const path = require('path')
 
 module.exports = {
-  host: 'localhost',
+  host: '127.0.0.1',
   port: '3002',
   secret: 'secret',
   publicDir: path.resolve(__dirname, '../static'),
