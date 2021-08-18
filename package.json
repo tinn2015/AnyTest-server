@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon ./bin/www",
+    "nodestart": "node ./bin/www",
     "dev": "pm2 start ./config/ecosystem.config.js --env dev",
     "test": "pm2 start ./config/ecosystem.config.js --env test",
     "pro": "pm2 start ./config/ecosystem.config.js --env pro",
