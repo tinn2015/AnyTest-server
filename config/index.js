@@ -17,7 +17,7 @@ module.exports = {
     port: 27017
   },
   mysql: {
-    database: 'MyDemo',
+    database: 'demo',
     username: 'root',
     password: 'dqt112233',
     host: '127.0.0.1',
