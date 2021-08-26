@@ -4,7 +4,7 @@ const path = require('path')
 
 module.exports = {
   host: '127.0.0.1',
-  port: '8080',
+  port: '8090',
   secret: 'secret',
   publicDir: path.resolve(__dirname, '../static'),
   www: path.resolve(__dirname, '../website/api-test-spa/build'),
